@@ -20,7 +20,7 @@ public class MagentoTest {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.get("http://magento.com");
 		System.out.println(driver);
-		
+		//comment
 		HomePage home=new HomePage(driver);
 
 		home.clickOnMyAccount();
